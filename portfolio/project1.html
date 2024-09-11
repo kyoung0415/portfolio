@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_proj1.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    <title>Summer 2022</title>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Katie Young</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="project2.html">Summer 2023</a></li>
+            <li><a href="project3.html">Summer 2024</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">Katie Young</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+            <li><a href="project2.html" onclick="toggleMenu()">Summer 2023</a></li>
+            <li><a href="project3.html" onclick="toggleMenu()">Summer 2024</a></li>
+          </div>
+        </div>
+      </nav>
+      <section id="description">
+        <h1 class="title">Summer 2022</h1>
+        <div class="text-container">
+          <p>
+            During my first summer as a full-stack web development intern at Fitness Plus Equipment Services Inc., 
+            I developed a strong foundation in website development, learning essential skills in both front-end and 
+            back-end programming. I learned how to work with different development frameworks, manage databases, and 
+            use key tools needed to build functional and responsive websites. I wrote backend code to build RESTful APIs 
+            utilizing CRUD operations (create, read, update, delete) and developed frontend code to create user-friendly interfaces.
+          </p>
+        </div>
+      </section>
+      <section id="carousel_1">
+        <p class="section__text__p1">View My</p>
+        <h1 class="title">Banner Management Project</h1>
+        <div class="slideshow-container fade">
+          <!-- Full images / Content -->
+          <div class="Containers">
+            <img src="./assets/banners_home.PNG" style="width:100%">
+            <div class="section__text__p1" style="padding-top: 40px; font-size: 18px">Banners Homepage</div>
+          </div>
+          <div class="Containers">
+            <img src="./assets/banners_add.PNG" style="width:100%">
+            <div class="section__text__p1" style="padding-top: 40px; font-size: 18px">Add A Banner Page</div>
+          </div>
+          <div class="Containers">
+            <img src="./assets/banners_edit.PNG" style="width:100%">
+            <div class="section__text__p1" style="padding-top: 40px; font-size: 18px">Edit A Banner Page</div>
+          </div>
+          <!-- Prev and Next buttons -->
+          <a class="Back" onclick="plusSlides(-1, 'carousel_1')">&#10094;</a>
+          <a class="forward" onclick="plusSlides(1, 'carousel_1')">&#10095;</a>
+        </div>
+        <!-- The dots -->
+        <div style="text-align:center">
+          <span class="dots" onclick="currentSlide(1, 'carousel_1')"></span>
+          <span class="dots" onclick="currentSlide(2, 'carousel_1')"></span>
+          <span class="dots" onclick="currentSlide(3, 'carousel_1')"></span>
+        </div>
+        <div class="description">
+          <p>
+            In this project, I developed a web-based application for managing website banners, 
+            specifically focused on optimizing the workflow for administrators. 
+            The primary goal was to design user-friendly interfaces that allows admins to efficiently 
+            create, view, edit, and delete website banners. 
+          </p>
+        </div>
+      </section>
+      <section id="carousel_2">
+        <p class="section__text__p1">View My</p>
+        <h1 class="title">Testimonial Management Project</h1>
+        <div class="slideshow-container fade">
+          <!-- Full images / Content -->
+          <div class="Containers">
+            <img src="./assets/testimonials_home.PNG" style="width:100%">
+            <div class="section__text__p1" style="padding-top: 40px; font-size: 18px">Testimonial Homepage</div>
+          </div>
+          <div class="Containers">
+            <img src="./assets/testimonials_add.PNG" style="width:100%">
+            <div class="section__text__p1" style="padding-top: 40px; font-size: 18px">Add A Testimonial Page</div>
+          </div>
+          <div class="Containers">
+            <img src="./assets/testimonials_edit.PNG" style="width:100%">
+            <div class="section__text__p1" style="padding-top: 40px; font-size: 18px">Edit A Testimonial Page</div>
+          </div>
+          <!-- Prev and Next buttons -->
+          <a class="Back" onclick="plusSlides(-1, 'carousel_2')">&#10094;</a>
+          <a class="forward" onclick="plusSlides(1, 'carousel_2')">&#10095;</a>
+        </div>
+        <!-- The dots -->
+        <div style="text-align:center">
+          <span class="dots" onclick="currentSlide(1, 'carousel_2')"></span>
+          <span class="dots" onclick="currentSlide(2, 'carousel_2')"></span>
+          <span class="dots" onclick="currentSlide(3, 'carousel_2')"></span>
+        </div>
+        <div class="description">
+          <p>
+            Similar to the Banner Management Project, I developed a testimonial management system designed to facilitate the collection, 
+            organization, and display of customer feedback. The system features an easy-to-navigate interface that allows administrators 
+            to add, review, edit, and remove testimonials with ease. Additionally, the system includes pagination features to handle large 
+            volumes of feedback, making it easier for administrators to browse and manage testimonials efficiently. 
+          </p>
+        </div>
+      </section>
+      <section id="carousel_3">
+        <p class="section__text__p1">View My</p>
+        <h1 class="title">IT Request Management Project</h1>
+        <div class="slideshow-container fade">
+          <!-- Full images / Content -->
+          <div class="Containers">
+            <img src="./assets/it_requests_home.PNG" style="width:100%">
+            <div class="section__text__p1" style="padding-top: 40px; font-size: 18px">IT Request Homepage</div>
+          </div>
+          <div class="Containers">
+            <img src="./assets/it_requests_add.PNG" style="width:100%">
+            <div class="section__text__p1" style="padding-top: 40px; font-size: 18px">Add An IT Request Page</div>
+          </div>
+          <div class="Containers">
+            <img src="./assets/it_requests_edit.PNG" style="width:100%">
+            <div class="section__text__p1" style="padding-top: 40px; font-size: 18px">Edit An IT Request Page</div>
+          </div>
+          <div class="Containers">
+            <img src="./assets/it_requests_deleted.PNG" style="width:100%">
+            <div class="section__text__p1" style="padding-top: 40px; font-size: 18px">Deleted IT Requests Page</div>
+          </div>
+          <!-- Prev and Next buttons -->
+          <a class="Back" onclick="plusSlides(-1, 'carousel_3')">&#10094;</a>
+          <a class="forward" onclick="plusSlides(1, 'carousel_3')">&#10095;</a>
+        </div>
+        <!-- The dots -->
+        <div style="text-align:center">
+          <span class="dots" onclick="currentSlide(1, 'carousel_3')"></span>
+          <span class="dots" onclick="currentSlide(2, 'carousel_3')"></span>
+          <span class="dots" onclick="currentSlide(3, 'carousel_3')"></span>
+          <span class="dots" onclick="currentSlide(4, 'carousel_3')"></span>
+        </div>
+        <div class="description">
+          <p style="padding-bottom: 50px">
+            In this project, I developed a web-based IT request management system designed to optimize 
+            how administrative managers handle IT requests. The system features a user-friendly interface that 
+            allows managers to easily create, track, update and delete their IT requests. The platform streamlines 
+            request processing and smoothly integrates with backend systems for effective data management. 
+          </p>
+        </div>
+      </section>
+      <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title" style="padding-bottom: 0px">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./assets/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="">youngkatie0415@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          </div>
+        </div>
+      </section>
+      <script src="script.js"></script>
+</body>
+</html>

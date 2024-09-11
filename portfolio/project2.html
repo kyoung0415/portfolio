@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_proj2.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    <title>Summer 2023</title>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Katie Young</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="project1.html">Summer 2022</a></li>
+            <li><a href="project3.html">Summer 2024</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">Katie Young</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+            <li><a href="project1.html" onclick="toggleMenu()">Summer 2022</a></li>
+            <li><a href="project3.html" onclick="toggleMenu()">Summer 2024</a></li>
+          </div>
+        </div>
+      </nav>
+      <section id="description">
+        <h1 class="title">Summer 2023</h1>
+        <div class="text-container">
+          <p>
+            During my second summer as a full-stack web developer, I focused on building upon the skills I developed 
+            the previous year while also broadening my knowledge. This summer allowed me to tackle different types of projects, 
+            from improving user interfaces to integrating complex backend functionalities, all of which provided me with a deeper 
+            understanding of full-stack development practices.
+          </p>
+        </div>
+      </section>
+      <section id="carousel_1">
+        <p class="section__text__p1">View My</p>
+        <h1 class="title">Account Brands Widget Project</h1>
+        <div class="slideshow-container fade">
+          <!-- Full images / Content -->
+          <div class="Containers">
+            <img src="./assets/account brands 1.png" style="width:100%">
+            <div class="section__text__p1" style="padding-top: 40px; font-size: 18px">Account Brands Widget</div>
+          </div>
+          <div class="Containers">
+            <img src="./assets/account brands 2.png" style="width:100%">
+            <div class="section__text__p1" style="padding-top: 40px; font-size: 18px">Account Brands Widget Continued</div>
+          </div>
+          <div class="Containers">
+            <img src="./assets/account brands 3.png" style="width:100%">
+            <div class="section__text__p1" style="padding-top: 40px; font-size: 18px">Add A Brand</div>
+          </div>
+          <!-- Prev and Next buttons -->
+          <a class="Back" onclick="plusSlides(-1, 'carousel_1')">&#10094;</a>
+          <a class="forward" onclick="plusSlides(1, 'carousel_1')">&#10095;</a>
+        </div>
+        <!-- The dots -->
+        <div style="text-align:center">
+          <span class="dots" onclick="currentSlide(1, 'carousel_1')"></span>
+          <span class="dots" onclick="currentSlide(2, 'carousel_1')"></span>
+          <span class="dots" onclick="currentSlide(3, 'carousel_1')"></span>
+        </div>
+        <div class="description">
+          <p>
+            In this project, I developed a personalized shopping widget that appears when a user logs into their account. 
+            This widget is designed to enhance the shopping experience by allowing users to easily browse and shop from their favorite brands.  
+          </p>
+        </div>
+      </section>
+      <section id="carousel_2">
+        <p class="section__text__p1">View My</p>
+        <h1 class="title">Product Recommendations Widget Project</h1>
+        <div class="slideshow-container fade">
+          <!-- Full images / Content -->
+          <div class="Containers">
+            <img src="./assets/suggested parts.PNG" style="width:100%">
+            <div class="section__text__p1" style="padding-top: 40px; font-size: 18px">Product Recommendations Widget</div>
+          </div>
+          <div class="Containers">
+            <img src="./assets/suggested parts 2.PNG" style="width:100%">
+            <div class="section__text__p1" style="padding-top: 40px; font-size: 18px">Product Recommendations Widget Continued</div>
+          </div>
+          <!-- Prev and Next buttons -->
+          <a class="Back" onclick="plusSlides(-1, 'carousel_2')">&#10094;</a>
+          <a class="forward" onclick="plusSlides(1, 'carousel_2')">&#10095;</a>
+        </div>
+        <!-- The dots -->
+        <div style="text-align:center">
+          <span class="dots" onclick="currentSlide(1, 'carousel_2')"></span>
+          <span class="dots" onclick="currentSlide(2, 'carousel_2')"></span>
+        </div>
+        <div class="description">
+          <p>
+            In this project, I created a product recommendation system that features a dynamic carousel of products, 
+            which appears when a user logs into their account. The carousel showcases items similar to those the user has purchased in the past,
+            using their purchase history to provide personalized suggestions.   
+          </p>
+        </div>
+      </section>
+      <section id="carousel_3">
+        <p class="section__text__p1">View My</p>
+        <h1 class="title">Cart Filler Widget Project</h1>
+        <div class="slideshow-container fade">
+          <!-- Full images / Content -->
+          <div class="Containers">
+            <img src="./assets/cart filler.PNG" style="width:100%">
+            <div class="section__text__p1" style="padding-top: 40px; font-size: 18px">Cart Filler Widget</div>
+          </div>
+          <div class="Containers">
+            <img src="./assets/cart filler 2.png" style="width:100%">
+            <div class="section__text__p1" style="padding-top: 40px; font-size: 18px">Cart Filler Widget Continued</div>
+          </div>
+          <!-- Prev and Next buttons -->
+          <a class="Back" onclick="plusSlides(-1, 'carousel_3')">&#10094;</a>
+          <a class="forward" onclick="plusSlides(1, 'carousel_3')">&#10095;</a>
+        </div>
+        <!-- The dots -->
+        <div style="text-align:center">
+          <span class="dots" onclick="currentSlide(1, 'carousel_3')"></span>
+          <span class="dots" onclick="currentSlide(2, 'carousel_3')"></span>
+        </div>
+        <div class="description">
+          <p>
+            In this project, I developed a cart filler widget that features a carousel showcasing the company’s most popular products. 
+            This widget is designed to enhance the shopping experience by highlighting top-selling items that users might be interested 
+            in adding to their cart. The carousel dynamically updates to display trending products.
+          </p>
+        </div>
+      </section>
+      <section id="carousel_4">
+        <p class="section__text__p1">View My</p>
+        <h1 class="title">Orders By Coupon Table Project</h1>
+        <div class="slideshow-container fade">
+          <!-- Full images / Content -->
+          <div class="Containers">
+            <img src="./assets/orders_by_coupons_2.PNG" style="width:100%">
+            <div class="section__text__p1" style="padding-top: 40px; font-size: 18px">Search Coupons</div>
+          </div>
+          <div class="Containers">
+            <img src="./assets/orders_by_coupons_3.PNG" style="width:100%">
+            <div class="section__text__p1" style="padding-top: 40px; font-size: 18px">View Orders Information Based on Chosen Coupon</div>
+          </div>
+          <!-- Prev and Next buttons -->
+          <a class="Back" onclick="plusSlides(-1, 'carousel_4')">&#10094;</a>
+          <a class="forward" onclick="plusSlides(1, 'carousel_4')">&#10095;</a>
+        </div>
+        <!-- The dots -->
+        <div style="text-align:center">
+          <span class="dots" onclick="currentSlide(1, 'carousel_4')"></span>
+          <span class="dots" onclick="currentSlide(2, 'carousel_4')"></span>
+        </div>
+        <div class="description">
+          <p>
+            In this project, I developed a coupon search tool that allows administrators to efficiently track and manage coupon usage. 
+            The tool features a searchable table where admins can input a specific coupon code to view all orders associated with that coupon. 
+            The table displays relevant order details, such as customer information, purchase date, and total amount. 
+          </p>
+        </div>
+      </section>
+      <section id="carousel_5">
+        <p class="section__text__p1">View My</p>
+        <h1 class="title">Email With Discount Code Project</h1>
+        <div class="slideshow-container fade">
+          <!-- Full images / Content -->
+          <div class="Containers">
+            <img src="./assets/email_1.PNG" style="width:100%">
+            <div class="section__text__p1" style="padding-top: 40px; font-size: 18px">Email With Discount Code</div>
+          </div>
+          <div class="Containers">
+            <img src="./assets/email_2.PNG" style="width:100%">
+            <div class="section__text__p1" style="padding-top: 40px; font-size: 18px">Email Continued</div>
+          </div>
+          <div class="Containers">
+            <img src="./assets/unsubscribe.PNG" style="width:100%">
+            <div class="section__text__p1" style="padding-top: 40px; font-size: 18px">Unsubscribe Page</div>
+          </div>
+          <!-- Prev and Next buttons -->
+          <a class="Back" onclick="plusSlides(-1, 'carousel_5')">&#10094;</a>
+          <a class="forward" onclick="plusSlides(1, 'carousel_5')">&#10095;</a>
+        </div>
+        <!-- The dots -->
+        <div style="text-align:center">
+          <span class="dots" onclick="currentSlide(1, 'carousel_5')"></span>
+          <span class="dots" onclick="currentSlide(2, 'carousel_5')"></span>
+          <span class="dots" onclick="currentSlide(3, 'carousel_5')"></span>
+        </div>
+        <div class="description">
+          <p>
+            In this project, I developed an automated email that generates and sends unique discount codes to all users with accounts. 
+            Each user receives a dynamic, personalized code to ensure the codes are unique and secure. 
+            The system integrates with the user database table to automatically generate these codes and distribute them via personalized emails.
+            Additionally, I added a feature and dedicated page allowing users to easily unsubscribe from automated emails
+          </p>
+        </div>
+      </section>
+      <section id="carousel_6">
+        <p class="section__text__p1">View My</p>
+        <h1 class="title">Find A Servicer Project</h1>
+        <div class="slideshow-container fade">
+          <!-- Full images / Content -->
+          <div class="Containers">
+            <img src="./assets/FAS_1.PNG" style="width:100%">
+            <div class="section__text__p1" style="padding-top: 40px; font-size: 18px">Search Based on State</div>
+          </div>
+          <div class="Containers">
+            <img src="./assets/FAS_2.PNG" style="width:100%">
+            <div class="section__text__p1" style="padding-top: 40px; font-size: 18px">Search Based on Zip Code</div>
+          </div>
+          <!-- Prev and Next buttons -->
+          <a class="Back" onclick="plusSlides(-1, 'carousel_6')">&#10094;</a>
+          <a class="forward" onclick="plusSlides(1, 'carousel_6')">&#10095;</a>
+        </div>
+        <!-- The dots -->
+        <div style="text-align:center">
+          <span class="dots" onclick="currentSlide(1, 'carousel_6')"></span>
+          <span class="dots" onclick="currentSlide(2, 'carousel_6')"></span>
+        </div>
+        <div class="description">
+          <p style="padding-bottom: 50px">
+            In this project, I updated the design and functionality of the Find a Servicer widget to improve its user experience 
+            and visual appeal. The widget allows users to input a location, and based on that input, it dynamically loads a list 
+            of servicers closest to the entered location. 
+          </p>
+        </div>
+      </section>
+      <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title" style="padding-bottom: 0px">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./assets/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="">youngkatie0415@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          </div>
+        </div>
+      </section>
+      <script src="script.js"></script>
+</body>
+</html>

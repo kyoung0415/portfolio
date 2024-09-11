@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_proj3.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    <title>Summer 2024</title>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Katie Young</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="project1.html">Summer 2022</a></li>
+            <li><a href="project2.html">Summer 2023</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">Katie Young</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+            <li><a href="project1.html" onclick="toggleMenu()">Summer 2022</a></li>
+            <li><a href="project3.html" onclick="toggleMenu()">Summer 2024</a></li>
+          </div>
+        </div>
+      </nav>
+      <section id="description">
+        <h1 class="title">Summer 2024</h1>
+        <div class="text-container">
+          <p>
+            During my third summer as a full-stack web developer, I focused primarily on integrating the FedEx tracking web service 
+            to retrieve tracking information directly from FedEx. This integration allowed users to view shipment updates 
+            when reviewing their order history. Additionally, I implemented an existing address validation function that, 
+            based on user input, would either return the exact address or suggest alternatives if the input was invalid.
+          </p>
+        </div>
+      </section>
+      <section id="carousel_1">
+        <p class="section__text__p1">View My</p>
+        <h1 class="title">Email to Indicate High Shipping Costs Project</h1>
+        <div class="slideshow-container fade">
+          <!-- Full images / Content -->
+          <div class="Containers">
+            <img src="./assets/high shipping email_LI.jpg" style="width:100%">
+          </div>
+        <div class="description">
+          <p>
+            In this project, I developed an automated email notification designed to alert administration when an order 
+            includes shipping costs exceeding $500. The system automatically sends an email to the administrative team whenever 
+            such an order is placed, prompting them to double-check the accuracy of the shipping cost to ensure no
+            errors occurred during processing. 
+          </p>
+        </div>
+      </section>
+      <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title" style="padding-bottom: 0px">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./assets/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="">youngkatie0415@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          </div>
+        </div>
+      </section>
+      <script src="script.js"></script>
+</body>
+</html>
