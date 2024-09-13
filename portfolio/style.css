@@ -519,8 +519,8 @@ footer p {
 }
 
 @media screen and (max-width: 600px) {
-  section {
-    padding: 4vh 2vw;
+  section, #experience {
+    min-height: 900px;
   }
   .section__pic-container {
     width: 90%;
